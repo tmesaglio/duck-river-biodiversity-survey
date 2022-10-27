@@ -1,0 +1,43 @@
+baseURL: https:// tmesaglio.github.io/duck-river-biodiversity-survey
+languageCode: en-US
+defaultContentLanguage: en
+title: Duck River Biodiversity
+theme: hugo-theme-relearn
+metaDataFormat: yaml
+defaultContentLanguageInSubdir: yes
+params:
+  author:  Thomas Mesaglio
+  customMermaidURL: NA
+  description: Duck River Biodiversity (Wategora Reserve and Everley Park) in Western Sydney, Australia
+  disableBreadcrumb: no
+  disableLandingPageButton: yes
+  disableMermaid: no
+  disableNextPrev: no
+  editURL: https://github.com/tmesaglio/duck-river-biodiversity-survey/tree/main/content
+  showVisitedLinks: yes
+  titleSeparator: '::'
+  themeVariant: 'green'
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Languages:
+  en:
+    title: Duck River Biodiversity
+    weight: 1
+    languageName: English
+    landingPageName: <i class='fas fa-home'></i> Home
