@@ -4,3 +4,4 @@ When asked to think about biodiversity, and where it's distributed, most people 
 
 One such pocket can be found along the Duck River in southwestern Sydney. Starting from Birrong in the south, the river flows northwards for 11 km until it joins with the Parramatta River. On its western bank, in the suburbs of Chester Hill and South Granville, is a small fragment of remnant bushland: Wategora Reserve. The reserve contains one of the last remaining patches of the endangered ecological community *Cooks River/Castlereagh Ironbark Forest*. Occurring on mostly clay soils, and largely restricted to the general western Sydney area, this community is threatened by land clearing, the invasion of non-native plants, and other human disturbances.
 
+![](/duck-river-biodiversity-survey/images/grassywoodland.jpg)
