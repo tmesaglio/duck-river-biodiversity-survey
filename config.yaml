@@ -17,6 +17,8 @@ params:
   showVisitedLinks: yes
   titleSeparator: '::'
   themeVariant: 'green'
+  relativeURLs: true
+  linkify: false
 outputs:
   home:
     - HTML
