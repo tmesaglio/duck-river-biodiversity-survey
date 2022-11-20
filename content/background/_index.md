@@ -7,4 +7,4 @@ In 2020, I was looking for new green spaces to explore in western Sydney. In lat
 
 This list was a (formally unpublished) report produced by knowledgeable local Tony Price, after three years of comprehensively surveying Wategora Reserve (and the nearby Rookwood Cemetery) for vascular plants. His report was published by Alison Hewitt as an appendix in her 2013 paper [*Revisiting Tony Price's (1979) account of the native vegetation of Duck River and Rookwood Cemetery, western Sydney*](2013_duck_river_hewitt.pdf)
 
-![](images/sign.jpg)
+![](duck-river-biodiversity-survey/images/sign.jpg)
