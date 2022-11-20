@@ -7,4 +7,10 @@ In 2020, I was looking for new green spaces to explore in western Sydney. In lat
 
 This list was a (formally unpublished) report produced by knowledgeable local Tony Price, after three years of comprehensively surveying Wategora Reserve (and the nearby Rookwood Cemetery) for vascular plants. His report was published by Alison Hewitt as an appendix in her 2013 paper [*Revisiting Tony Price's (1979) account of the native vegetation of Duck River and Rookwood Cemetery, western Sydney*](2013_duck_river_hewitt.pdf)
 
+In 1988, Price produced a second, updated list of native species for Wategora Reserve based on his continued observations and surveys since 1979, although this list was not made publicly accessible or published in any format; I have Colin Gibson to thank for kindly providing me with a physical copy of this document. In addition to these two lists, Judith Rawlings and John Neff conducted a brief survey of the non-native plant species in Wategora Reserve from November-December 1990; this was published as 'Appendix No. Two' in the 1990 physical document *Duck River Open-Space Bushland Survey*. Colin Gibson also produced an addendum (with one contribution from Francine Bell) of additional native species in the reserve, based on his observations from 1988-1992, that had not been observed by Price from 1976-1988, which he also shared with me. 
+
+I consolidated these four historical species lists into a single master historical list, updated all names, and removed and changed species based on misidentifications and other errors. From 1976-1992, a total of 522 vascular plant species were recorded from Wategora Reserve, including 285 native species from 1988-1992 and 237 non-native species from 1976-1990. 
+
+After that September visit, my aim therefore became to comprehensively survey the reserve: for vascular plants, to allow a comparison with these historical data; and, for all other taxa, to establish important baseline data.
+
 ![](sign.jpg)
