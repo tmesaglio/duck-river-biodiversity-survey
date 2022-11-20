@@ -1,7 +1,5 @@
 ---
 title: "Maps and site information"
-weight: 8
+weight: 4
 ---
 
-
-content here
