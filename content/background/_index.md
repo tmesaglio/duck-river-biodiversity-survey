@@ -3,22 +3,6 @@ title: "Background"
 weight: 4
 ---
 
+In 2020, I was looking for new green spaces to explore in western Sydney. In late April, I stumbled upon Wategora Reserve for the first time, having never visited it (or even known of its existence) beforehand.I visited a second time in early May, but then largely forgot about the reserve. In early September, however, I was starting to go a little bit crazy being stuck inside all the time during COVID lockdowns, and decided to visit Wategora again now that it was spring. After reading an information sign in the reserve, I became aware of the *'Price List'*
 
-## **Introduction**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## *orchids next to polluted streams*
-
-![Dipodium](/duck-river-biodiversity-survey/images/dipodium.png)
-
-
-### or like this:
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-#### next to polluted streams
-
-![](/duck-river-biodiversity-survey/images/dipodium.png)
-
-
+![sign](images/sign.jpg)
