@@ -1,6 +1,6 @@
 ---
 title: "Threats"
-weight: 9
+weight: 3
 ---
 
 I will keep this section brief, as it is comprehensively treated within my final report itself, but the survey area is threatened by a myriad of processes and entities, including (but not limited to) the invasion by non-native species, erosion, weather extremes, pollution, and inadequate management. 
