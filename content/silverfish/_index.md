@@ -1,6 +1,6 @@
 ---
 title: "Species discovery"
-weight: 5
+weight: 6
 ---
 
 During my survey I observed a number of undescribed species, including a native mushroom (*Agaricus* sp.), multiple invertebrates (e.g., grasshoppers, spiders), and two phrase name plant species, *Arthropodium* sp. South-east Highlands (N.G.Walsh 811) Vic. Herbarium and *Alternanthera* sp. A Flora of New South Wales (M.Gray 5187) J.Palmer. One of these cases, however, was particularly notable. 
