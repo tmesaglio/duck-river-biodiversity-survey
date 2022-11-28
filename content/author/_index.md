@@ -13,4 +13,6 @@ I'm a huge proponent of the online biodiversity citizen science platform iNatura
 
 I've also written two books: a short ebook on scientific etymology, [It's Helico-pter, not Heli-copter: A Beginner's Guide to Deconstructing Scientific Words and Names](https://www.amazon.com.au/dp/B082Y712YD), and a hardcover field guide, [Seashells of North Haven Beach](https://seashellsofnorthhavenbeach.company.site). 
 
+Please feel free to contact me at anytime, whether about this survey or anything else, at either thomasmesaglio@hotmail.com or thomasmesaglio@gmail.com.
+
 ![](rainbow.JPG)
