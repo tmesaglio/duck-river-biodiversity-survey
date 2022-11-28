@@ -9,3 +9,13 @@ Whilst there are many plant species that are significant or locally rare within 
 Endemic to the Sydney region, this threatened wattle is listed as vulnerable under federal legislation. Much of its remaining occurrences are as very small patches or individuals along trainlines or roadsides, however, Wategora Reserve is one of its last bastions; it's common and widespread throughout almost all sections of the survey area, with many large patches formed by suckering.  
 
 ![](wattle2.JPG)
+
+2. *Callistemon linearifolius*    
+Listed as vulnerable at a state level, this threatened bottlebrush is listed as a 'data-deficient' species by the Saving Our Species program. Scattered individuals and small stands are present throughout the reserve, totalling ~15-20 individuals. 
+
+![](bottlebrush.JPG)
+
+3. *Solenogyne dominii*   
+This small Asteraceae is relatively rare in Sydney. I recorded this species at only three locations within the survey area, all of them in the northern bushland, and two of them represented by just one individual.
+
+![](daisy.JPG)
