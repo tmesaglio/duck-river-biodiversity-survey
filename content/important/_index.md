@@ -8,4 +8,4 @@ Whilst there are many plant species that are significant or locally rare within 
 1. *Acacia pubescens*   
 Endemic to the Sydney region, this threatened wattle is listed as vulnerable under federal legislation. Much of its remaining occurrences are as very small patches or individuals along trainlines or roadsides, however, Wategora Reserve is one of its last bastions; it's common and widespread throughout almost all sections of the survey area, with many large patches formed by suckering.  
 
-![](wattle.jpg)
+![](wattle2.JPG)
