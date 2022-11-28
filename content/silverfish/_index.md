@@ -11,6 +11,6 @@ In late March 2021, I found a single silverfish under a fallen *Melaleuca decora
 
 I went back four days later and, very fortunately, managed to find a male at the same spot, collected it into ethanol, and sent it to Graeme, who confirmed that it was an undescribed species:
 
-The species has (now been described as *Subtrinemura epigea*!)[https://journals.australian.museum/smith-2022-rec-aust-mus-742-5974/]. 
+The species has [now been described as *Subtrinemura epigea*!](https://journals.australian.museum/smith-2022-rec-aust-mus-742-5974/). 
 
 ![](silverfish.JPG)
