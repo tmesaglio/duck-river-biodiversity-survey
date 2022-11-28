@@ -11,6 +11,6 @@ I'm heavily involved in BioBlitzes across Australia as an organiser, survey lead
 
 I'm a huge proponent of the online biodiversity citizen science platform iNaturalist, on which I'm a curator and forum moderator. I've uploaded over 39,000 observations to the platform across almost 6000 species, and have made >227,000 identifications for other users. You can find me on iNaturalist as ['thebeachcomber'](https://www.inaturalist.org/people/thebeachcomber).
 
-I've also written two books: a short ebook on scientific etymology, [It's Helico-pter, not Heli-copter: A Beginner's Guide to Deconstructing Scientific Words and Names](https://www.amazon.com.au/dp/B082Y712YD), and a hardcover field guide, [Seashells of North Haven Beach] (https://seashellsofnorthhavenbeach.company.site). 
+I've also written two books: a short ebook on scientific etymology, [It's Helico-pter, not Heli-copter: A Beginner's Guide to Deconstructing Scientific Words and Names](https://www.amazon.com.au/dp/B082Y712YD), and a hardcover field guide, [Seashells of North Haven Beach](https://seashellsofnorthhavenbeach.company.site). 
 
 ![](rainbow.JPG)
