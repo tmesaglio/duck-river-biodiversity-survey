@@ -13,4 +13,4 @@ I consolidated these four historical species lists into a single master historic
 
 After that September visit, my aim therefore became to comprehensively survey the reserve: for vascular plants, to allow a comparison with these historical data; and, for all other taxa, to establish important baseline data.
 
-![](pricebench.jpg)
+![](pricebench.png)
