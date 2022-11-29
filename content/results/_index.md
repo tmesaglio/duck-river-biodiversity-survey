@@ -43,7 +43,7 @@ Insects - 941 species. Spread across 25 major groups (mostly equivalent to order
 
 Slime moulds - 3 species. One unidentifiable beyond class (Myxomycetes), along with *Arcyria obvelata* and *Tubifera ferruginosa*. 
 
-Cyanobacteria - 2 species. One found growing on wetm hard-packed clay along the creek banks, and one growing on the surface of sewage overflow.
+Cyanobacteria - 2 species. One found growing on wet, hard-packed clay along the creek banks, and one growing on the surface of sewage overflow.
 
 Fungi - 113 species. Spread across 15 groups based on fruiting body morphology.
 
