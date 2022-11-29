@@ -3,7 +3,7 @@ title: "Threats"
 weight: 4
 ---
 
-I will keep this section brief, as it is comprehensively treated within my final report itself, but the survey area is threatened by a myriad of processes and entities, including (but not limited to) the invasion by non-native species, erosion, weather extremes, pollution, and inadequate management. 
+I will keep this section brief, as it is comprehensively treated within my final report itself, but the survey area is threatened by a myriad of processes and entities, including (but not limited to) invasion by non-native species, erosion, weather extremes, pollution, and inadequate management. 
 
 Undoubtedly, the most significant current threat to the reserve's biodiversity is the proliferation and spread of non-native plants. During my survey I observed 308 non-native plant species, exceeding the number of natives (287). Although many of these non-natives are having little to no impact on biodiversity in the survey area, e.g., singular occurrences of garden escapees such as *Dimorphotheca ecklonia* or *Dracaena draco*, a great number of non-native plant species are negatively impacting the survey area's biodiversity right now, with impacts including altered water flow, spread of disease, creation of excess shade, smothering of native trees and shrubs, and outcompetition/displacement of native species. 
 
