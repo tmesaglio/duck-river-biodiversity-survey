@@ -11,6 +11,6 @@ Probably the greatest threat out of any non-native plant species in the survey a
 
 Notably, I also observed three naturalised, non-native plant species within Wategora Reserve that were previously unrecorded by PlantNET as naturalised in NSW: *Rothmannia globosa*, *Salvia hispanica* and *Ruta chalepensis*. 
 
-The photo below highlights the now total dominance of the undergrowth by *Ehrharta erecta* in many sections of the reserve.
+The photo below highlights the now total dominance of the undergrowth by *Ehrharta erecta* in some sections of the reserve.
 
 ![](grass.jpg)
