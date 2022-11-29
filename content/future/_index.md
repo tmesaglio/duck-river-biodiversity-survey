@@ -18,4 +18,6 @@ Galls and leaf miners
 
 If anyone has ideas for surveying these groups, wants to collaborate on any project related to my survey area, or is interested in simply visiting and checking out some of the species I've found, I'd love to hear from you! You can contact me at either thomasmesaglio@hotmail.com or thomasmesaglio@gmail.com.
 
+I would also hugely appreciate you reaching out to me if you've found any errors in my report (misidentifications or otherwise), or are able to identify any of my observations that are currently sitting at genus or coarser.
+
 ![](swale.JPG)
