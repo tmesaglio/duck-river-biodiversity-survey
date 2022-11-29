@@ -35,14 +35,14 @@ Arachnids - 125 species. Mostly spiders (110 species), but also includes 12 mite
 
 Crustaceans - 10 species. Six terrestrial species (4 woodlice and 2 amphipods) and four aquatic species (1 copepod, 2 ostracods and 1 water flea). 
 
-Myriapods - 14 species
+Myriapods - 14 species. Six centipedes, 5 millipedes and 1 pseudocentipede (unidentified scutigerellid).
 
-Entognathans - 12 species
+Entognathans - 12 species. Eleven springtails and 1 dipluran (unidentified Rhabdura).
 
-Insects - 941 species
+Insects - 941 species. Spread across 25 major groups (mostly equivalent to orders), with moths (198 species), flies (167 species) and beetles (165 species) the most diverse.
 
-Slime moulds - 3 species
+Slime moulds - 3 species. One unidentifiable beyond class (Myxomycetes), along with *Arcyria obvelata* and *Tubifera ferruginosa*. 
 
-Cyanobacteria - 2 species
+Cyanobacteria - 2 species. One found growing on wetm hard-packed clay along the creek banks, and one growing on the surface of sewage overflow.
 
-Fungi - 113 species
+Fungi - 113 species. Spread across 15 groups based on fruiting body morphology.
