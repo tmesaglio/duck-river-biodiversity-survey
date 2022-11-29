@@ -9,4 +9,6 @@ From 2020-2022, I conducted a comprehensive biodiversity survey of Wategora Rese
 
 The contents of this report are also summarised on this website.  
 
+I'd like to acknowledge that my survey was conducted on the land of the Wategora Clan of the Dharug Nation.
+
 ![grassy](images/grassywoodland.jpg)
