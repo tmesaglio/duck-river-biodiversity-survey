@@ -46,3 +46,5 @@ Slime moulds - 3 species. One unidentifiable beyond class (Myxomycetes), along w
 Cyanobacteria - 2 species. One found growing on wetm hard-packed clay along the creek banks, and one growing on the surface of sewage overflow.
 
 Fungi - 113 species. Spread across 15 groups based on fruiting body morphology.
+
+![](wasp.JPG)
