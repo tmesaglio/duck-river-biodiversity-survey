@@ -23,17 +23,17 @@ Fishes - 4 species. Two natives and 2 non-natives.
 
 Nematodes - 1 species. Present as leaf galls on *Angophora floribunda*, created by an association between a nematode (*Fergusobia* sp.) and a fly (*Fergusonina* sp.).
 
-Segmented worms - 5 species
+Segmented worms - 5 species. Four 'earthworm' species and 1 leech (unidentified erpobdellid). 
 
-Flatworms - 4 species 
+Flatworms - 4 species. Three terrestial geoplanid flatworms, and 1 aquatic flatworm  (unidentified Dalytyphloplanida). 
 
-Hydrozoans - 1 species
+Hydrozoans - 1 species. *Hydra* sp. attached to the shell of a live *Physa acuta* snail. 
 
-Molluscs - 12 species
+Molluscs - 12 species. Five aquatic snails (including 1 non-native, *Physa acuta*), 1 native terrestrial snail (*Sauroconcha sheai*) and 6 non-native terrestrial snails and slugs.
 
-Arachnids - 125 species
+Arachnids - 125 species. Mostly spiders (110 species), but also includes 12 mites, 1 harvestman, 1 scorpion and 1 pseudoscorpion.
 
-Crustaceans - 10 species
+Crustaceans - 10 species. Six terrestrial species (4 woodlice and 2 amphipods) and four aquatic species (1 copepod, 2 ostracods and 1 water flea). 
 
 Myriapods - 14 species
 
