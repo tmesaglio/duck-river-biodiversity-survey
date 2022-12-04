@@ -13,7 +13,7 @@ Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustiv
 
 **Birds - 62 species.** Spread across 12 feeding guilds, and including 4 non-native species. 
 
-**Mammals - 6 species.** Two natives (both bats, Grey-headed Flying-fox [*Pteropus poliocephalus*] and an unidentified bat), and 4 non-natives.
+**Mammals - 6 species.** Two natives (both bats, Grey-headed Flying-fox [*Pteropus poliocephalus*] and an unidentified microbat), and 4 non-natives.
 
 **Amphibians - 3 species.** Striped Marsh Frog (*Limnodynastes peronii*), Common Eastern Froglet (*Crinia signifera*) and Peron's Tree Frog (*Litoria peronii*).   
 
