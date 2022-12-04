@@ -11,6 +11,6 @@ The survey area can be split into two sections. The southern section is what I r
 
 ![](botmap.png)
 
-The northern section constitutes **Wategora Reserve** itself, including Duck River and a small tributary of it extending westwards into the reserve. The riverine vegetation along the creek is also River-Flat Eucalypt Forest, but the core vegetation throughout the reserve is *Cooks River/Castlereagh Ironbark Forest of the Sydney Basin*,  a critically endangered ecological community. The reserve has also undergone extensive management in the past few decades, including spraying and removal of weeds, native species plantings, and erosion control, but much of the vegetation is remnant/naturally occurring. The map below shows this section. 
+The northern section constitutes **Wategora Reserve** itself, including Duck River and a small tributary of it extending westwards into the reserve. The riverine vegetation along the creek is also River-Flat Eucalypt Forest, but the core vegetation throughout the reserve is *Cooks River/Castlereagh Ironbark Forest of the Sydney Basin*,  a critically endangered ecological community. The reserve has also undergone extensive management in the past few decades, including spraying and removal of weeds, native species plantings, and erosion control, but most of the vegetation is remnant/naturally occurring. The map below shows this section. 
 
 ![](topmap.png)
