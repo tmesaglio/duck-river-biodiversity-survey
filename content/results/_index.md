@@ -9,7 +9,7 @@ Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustiv
 
 **Bryophytes - 24 species.** One hornwort (*Phaeoceros carolinianus*), 11 liverworts and 12 mosses. Includes 2 non-native species: the liverwort *Lunularia cruciata* and the moss *Leptodictyum riparium*.
 
-**Vascular plants - 569 species.** Spread across 7 aquatic plants, 38 climbers, 108 graminoids, 11 ferns, 226 herbs, 72 shrubs, 16 subshrubs, 16 succulents and 75 trees. Natives (287 species) outnumbered by non-natives (308).
+**Vascular plants - 569 species.** Spread across 7 aquatic plants, 38 climbers, 108 graminoids, 11 ferns, 226 herbs, 72 shrubs, 16 subshrubs, 16 succulents and 75 trees. Natives (263 species) outnumbered by non-natives (306).
 
 **Birds - 62 species.** Spread across 12 feeding guilds, and including 4 non-native species. 
 
