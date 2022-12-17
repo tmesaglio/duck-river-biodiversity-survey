@@ -33,4 +33,4 @@ weight: 10
 -	In Section 1, under the subsection 'Historical surveys', corrected the statement that Gibson's unpublished 1990 list was meant to be published as 'Appendix No. One' in the Duck River Open-Space Bushland Survey. Appendix No. One was actually meant to be Price's 1988 list, and Gibson's list was meant to be published as an addendum to Appendix No. One, with neither being published
 -	In Section 3, updated the number of non-native plant species from 308 to 309
 -	In Section 1, updated the number of iNaturalist identifiers from 687 to 690
--	Total species count updated from 1926 to 1928: 1 arachnid (spider), 1 vascular plant (tree). 
+-	Total species count updated from 1926 to 1928: +1 arachnid (spider), +1 vascular plant (tree). 
