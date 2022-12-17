@@ -20,7 +20,7 @@ weight: 10
 -	Updated non-native plant species count
 -	Total species count updated to 1928.
 
-Details:
+*Details:*
 -	Section 12, 'Version history', added to clearly document changes made with each new version
 -	New species of huntsman added after new identification added to existing observation: *Heteropoda jugulans*
 -	New species of eucalypt added after correcting identification added to existing observation: *Eucalyptus albens*
