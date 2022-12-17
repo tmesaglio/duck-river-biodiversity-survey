@@ -25,7 +25,7 @@ weight: 10
 -	Section 12, 'Version history', added to clearly document changes made with each new version
 -	New species of huntsman added after new identification added to existing observation: *Heteropoda jugulans*
 -	New species of eucalypt added after correcting identification added to existing observation: *Eucalyptus albens* 
--	Existing ant species, 'Myrmicinae, unidentified sp.1, refined to *Tetramorium* sp.
+-	Existing ant species, 'Myrmicinae, unidentified sp.1, refined to *Tetramorium* sp. (and thus 'Myrmicinae, unidentified sp.2' becomes 'Myrmicinae, unidentified sp.1', and 'Myrmicinae, unidentified sp.3' becomes 'Myrmicinae, unidentified sp.2')
 -	Existing ladybird species, 'Coccinellidae, unidentified sp.2', refined to 'Coccidulinae, unidentified' (and thus 'Coccinellidae, unidentified sp.1' becomes 'Coccinellidae, unidentified')
 -	Existing chrysomelid species, *Lamprolina aeneipennis*, was misidentified, so downgraded to *Lamprolina* sp.
 -	Existing mushroom species, *Formitiporia robusta*, was misidentified, so downgraded to 'Hymenochaetaceae, unidentified'
