@@ -27,7 +27,7 @@ weight: 10
 -	New species of eucalypt added after correcting identification added to existing observation: *Eucalyptus albens* 
 -	Existing ant species, 'Myrmicinae, unidentified sp.1, refined to *Tetramorium* sp. (and thus 'Myrmicinae, unidentified sp.2' becomes 'Myrmicinae, unidentified sp.1', and 'Myrmicinae, unidentified sp.3' becomes 'Myrmicinae, unidentified sp.2')
 -	Existing ladybird species, 'Coccinellidae, unidentified sp.2', refined to 'Coccidulinae, unidentified' (and thus 'Coccinellidae, unidentified sp.1' becomes 'Coccinellidae, unidentified')
--	Existing chrysomelid species, *Lamprolina aeneipennis*, was misidentified, so downgraded to *Lamprolina* sp.
+-	Existing chrysomelid species, *Lamprolina aeneipennis*, was misidentified, so downgraded to *Lamprolina* sp. Also updated photographic voucher
 -	Existing mushroom species, *Formitiporia robusta*, was misidentified, so downgraded to 'Hymenochaetaceae, unidentified'
 -	Updated description for ant species, *Nylanderia* sp., and changed photographic voucher, after identification of existing observation added a new record
 -	In Section 1, under the subsection 'Historical surveys', corrected the statement that Gibson's unpublished 1990 list was meant to be published as 'Appendix No. One' in the Duck River Open-Space Bushland Survey. Appendix No. One was actually meant to be Price's 1988 list, and Gibson's list was meant to be published as an addendum to Appendix No. One, with neither being published
