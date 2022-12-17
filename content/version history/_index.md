@@ -4,10 +4,12 @@ weight: 10
 ---
 
 **Version 1.0 - released 5 December 2022**
+
 *Summary:* 
 -	Initial release
 
 **Version 1.1 - released 17 December 2022**
+
 *Summary:* 
 -	New section added
 -	2 new species added/identified from existing observations
