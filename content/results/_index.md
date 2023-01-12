@@ -3,13 +3,13 @@ title: "Results"
 weight: 7
 ---
 
-Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustive annotated and illustrated checklist for every one of these species in my final report itself, but in summary:
+Across 378.6 hours of surveying, I recorded 1930 species. I provide an exhaustive annotated and illustrated checklist for every one of these species in my final report itself, but in summary:
 
 **Algae - 2 species.** Both green algae: *Cladophora glomerata*, submerged in the creek, and *Basicladia ramulosa* growing as an epibiont on the carapace of an Eastern Long-necked Turtle (*Chelodina longicollis*).
 
 **Bryophytes - 24 species.** One hornwort (*Phaeoceros carolinianus*), 11 liverworts and 12 mosses. Includes 2 non-native species: the liverwort *Lunularia cruciata* and the moss *Leptodictyum riparium*.
 
-**Vascular plants - 570 species.** Spread across 7 aquatic plants, 38 climbers, 108 graminoids, 11 ferns, 226 herbs, 72 shrubs, 16 subshrubs, 16 succulents and 76 trees. Natives (263 species) outnumbered by non-natives (307).
+**Vascular plants - 571 species.** Spread across 7 aquatic plants, 38 climbers, 108 graminoids, 11 ferns, 226 herbs, 73 shrubs, 16 subshrubs, 16 succulents and 76 trees. Natives (264 species) outnumbered by non-natives (307).
 
 **Birds - 62 species.** Spread across 12 feeding guilds, and including 4 non-native species. 
 
@@ -31,7 +31,7 @@ Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustiv
 
 **Molluscs - 12 species.** Five aquatic snails (including 1 non-native, *Physa acuta*), 1 native terrestrial snail (*Sauroconcha sheai*) and 6 non-native terrestrial snails and slugs.
 
-**Arachnids - 126 species.** Mostly spiders (111 species), but also includes 12 mites, 1 harvestman, 1 scorpion and 1 pseudoscorpion.
+**Arachnids - 127 species.** Mostly spiders (112 species), but also includes 12 mites, 1 harvestman, 1 scorpion and 1 pseudoscorpion.
 
 **Crustaceans - 10 species.** Six terrestrial species (4 woodlice and 2 amphipods) and four aquatic species (1 copepod, 2 ostracods and 1 water flea). 
 

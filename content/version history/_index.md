@@ -34,3 +34,30 @@ weight: 10
 -	In Section 3, updated the number of non-native plant species from 308 to 309
 -	In Section 1, updated the number of iNaturalist identifiers from 687 to 690
 -	Total species count updated from 1926 to 1928: +1 arachnid (spider), +1 vascular plant (tree). 
+
+
+**Version 1.2 - released 12 January 2023**
+
+*Summary:* 
+-	3 new species added/identified from existing observations
+-	Refined identification for 2 species
+-	Coarsened identification for 1 species and updated description and photographic voucher
+-	Description updated for 1 species
+-	1 species removed, merged with existing species
+-	Updated native plant species count
+-	Updated number of iNaturalist identifiers
+-	Total species count updated to 1930.
+
+*Details:*
+-	New species of *Rubus* added after correcting identification added to existing observation: *Rubus parvifolius*
+-	New species of jumping spider added after new identification added to existing observation: *Paraphilaeus daemeli*
+-	New species of triangular spider added after new identification added to existing observation: *Arkys* sp.
+-	Existing weevil species, *Leptopius* sp., refined to *Leptopius robustus*
+-	Existing darkling beetle species, 'Alleculini, unidentified sp.1', refined to *Euomma lateralis* (and thus 'Alleculini, unidentified sp.2' becomes 'Alleculini, unidentified sp.1', and 'Alleculini, unidentified sp.3' becomes 'Alleculini, unidentified sp.2')
+-	*Trichalus* sp. downgraded to 'Metriorrhynchini, unidentified', description updated, and photographic voucher updated
+-	Updated description for *Artoria* sp. after identification of existing observation added a new record
+-	Removed 'Araneinae, unidentified' due to uncertainty over identification, and text moved to description for *Plebs eburnus*
+-	In Section 3, updated the number of non-native plant species from 287 to 288
+-	In Section 1, updated the number of iNaturalist identifiers from 690 to 695
+-	Total species count updated from 1928 to 1930: 1 arachnid (spider), 1 vascular plant (shrub). 
+
