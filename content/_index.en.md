@@ -4,8 +4,8 @@ When asked to think about biodiversity, and where it's distributed, most people 
 
 One such pocket can be found along the Duck River in southwestern Sydney. Starting from Birrong in the south, the river flows northwards for 11 km until it joins with the Parramatta River. On its western bank, in the suburbs of Chester Hill, South Granville and Auburn, is a small fragment of remnant bushland: Wategora Reserve. The reserve contains a significant patch of the critically endangered ecological community *Cooks River/Castlereagh Ironbark Forest of the Sydney Basin*. Occurring on mostly clay soils, and largely restricted to the general western Sydney area, this community is threatened by land clearing, the invasion of non-native plants, and other human disturbances.
 
-From 2020-2022, I conducted a comprehensive biodiversity survey of Wategora Reserve, and the riparian vegetation adjacent to Everley Park directly south of the reserve. Across a total of **~380 hours of survey time, within an area of ~25 ha, I recorded 1930 species**. My final report, which contains maps, discussions of threats and important processes in the survey area, and an annotated checklist covering all observed species, can be downloaded at the link below: 
-#### [Final report on Duck River Biodiversity](duck_river_survey_v1-2.pdf)
+**From 2020-2022, I conducted a comprehensive biodiversity survey of Wategora Reserve, and the riparian vegetation adjacent to Everley Park directly south of the reserve. Across a total of ~380 hours of survey time, within an area of ~25 ha, I recorded 1925 species. In a further ~31 hours of surveying from 11 NOvember 2022 onwards, I have recorded an additional 107 species, bringing the total to 2032**. My final report, which contains maps, discussions of threats and important processes in the survey area, and an annotated checklist covering all observed species, can be downloaded at the link below: 
+#### [Final report on Duck River Biodiversity](duck_river_survey_v1-3.pdf)
 
 The contents of this report are also summarised on this website.  
 
