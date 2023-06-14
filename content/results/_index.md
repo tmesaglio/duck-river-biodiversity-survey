@@ -47,6 +47,6 @@ Across 378.6 hours of surveying, I recorded 1925 species. I provide an exhaustiv
 
 **Fungi - 113 species.** Spread across 15 groups based on fruiting body morphology.
 
-A further 31.3 hours of survey time from 11 November 2022 onwards have yielded an additional 107 species (bringing the total to 2032), including 5 vascular plants, 8 arachnids, 93 insects and 1 fungus.
+A further 31.3 hours of survey time from 11 November 2022 onwards have yielded an additional 108 species (bringing the total to 2033), including 6 vascular plants, 8 arachnids, 93 insects and 1 fungus.
 
 ![](wasp.JPG)
