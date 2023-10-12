@@ -1,7 +1,6 @@
 {{- $_hugo_config := `{ "version": 1 }` }}
 {{- partial "shortcodes/mermaid.html" (dict
-  "page"    .Page
+  "context" .
   "content" .Inner
   "align"   (.Get "align")
-  "zoom"    (.Get "zoom")
 ) }}

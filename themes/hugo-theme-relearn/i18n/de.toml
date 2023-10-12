@@ -1,35 +1,14 @@
-[Reading-direction]
-other = "ltr"
-
-[Search]
-other = "Suchen"
-
 [Search-placeholder]
 other = "Suchen..."
 
-[Clear-search]
-other = "Suche löschen"
-
-[No-results-found]
-other = "Keine Ergebnisse gefunden für \"{0}\""
-
-[N-results-found]
-other = "{1} Ergebnisse gefunden für \"{0}\""
-
 [Clear-History]
 other = "Verlauf löschen"
-
-[Reset-view]
-other = "Ansicht zurücksetzen"
-
-[View-reset]
-other = "Ansicht zurückgesetzt!"
 
 [Attachments-label]
 other = "Anhänge"
 
 [title-404]
-other = "Nicht gefunden"
+other = "Fehler"
 
 [message-404]
 other = "Huch. Diese Seite scheint nicht zu existieren ¯\\_(ツ)_/¯."
@@ -42,9 +21,6 @@ other = "Bearbeiten"
 
 [Print-this-chapter]
 other = "Ganzes Kapitel drucken"
-
-[More-action]
-other = "Mehr"
 
 [Shortcuts-Title]
 other = "Mehr"
@@ -93,27 +69,3 @@ other = "Link in Zwischenablage kopiert!"
 
 [Chapter]
 other = "Kapitel {{.}}"
-
-[Language]
-other = "Sprache"
-
-[Theme]
-other = "Theme"
-
-[Submenu]
-other = "Untermenu {{.}}"
-
-[Subsections]
-other = "Unterabschnitte von {{.}}"
-
-[tags]
-other = "Stichworte"
-
-[tag]
-other = "Stichwort"
-
-[categories]
-other = "Kategorien"
-
-[category]
-other = "Kategorie"

@@ -1,6 +1,6 @@
 +++
 disableToc = false
-title = "What's New"
+title = "What's new"
 weight = 2
 +++
-{{< piratify true >}}
+{{< piratify >}}

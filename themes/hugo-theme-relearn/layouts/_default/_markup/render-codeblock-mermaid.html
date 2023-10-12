@@ -1,5 +1,4 @@
 {{- partial "shortcodes/mermaid.html" (dict
-  "page"    .Page
+  "context" .
   "content" .Inner
-  "align"  (index .Attributes "align")
 ) }}

@@ -5,48 +5,32 @@ title = "Expand"
 
 The `expand` shortcode displays an expandable/collapsible section of text.
 
-{{% expand title="Expand me..." %}}Thank you!
-
-That's some text with a footnote[^1]
-
-[^1]: And that's the footnote.
-
-That's some more text with a footnote.[^someid]
-
-[^someid]:
-    Anything of interest goes here.
-
-    Blue light glows blue.
-{{% /expand %}}
-
-{{% notice note %}}
-This only works in modern browsers flawlessly. While Internet Explorer 11 has issues in displaying it, the functionality still works.
-{{% /notice %}}
+{{% expand title="Expand me..." %}}Thank you!{{% /expand %}}
 
 ## Usage
 
-While the examples are using shortcodes with named parameter you are free to use positional as well or also call this shortcode from your own partials.
+While the examples are using shortcodes with named parameter you are free to use positional aswell or also call this shortcode from your own partials.
 
-{{< tabs groupid="shortcode-parameter">}}
-{{% tab title="shortcode" %}}
+{{< tabs groupId="shortcode-parameter">}}
+{{% tab name="shortcode" %}}
 
 ````go
 {{%/* expand title="Expand me..." */%}}Thank you!{{%/* /expand */%}}
 ````
 
 {{% /tab %}}
-{{% tab title="shortcode (positional)" %}}
+{{% tab name="shortcode (positional)" %}}
 
 ````go
 {{%/* expand "Expand me..." */%}}Thank you!{{%/* /expand */%}}
 ````
 
 {{% /tab %}}
-{{% tab title="partial" %}}
+{{% tab name="partial" %}}
 
 ````go
 {{ partial "shortcodes/expand.html" (dict
-  "page"  .
+  "context" .
   "title" "Expand me..."
   "content" "Thank you!"
 )}}
@@ -58,10 +42,10 @@ While the examples are using shortcodes with named parameter you are free to use
 ### Parameter
 
 | Name                  | Position | Default          | Notes       |
-|-----------------------|----------|------------------|-------------|
-| **title**             | 1        | `"Expand me..."` | Arbitrary text to appear next to the expand/collapse icon. |
+|:----------------------|:---------|:-----------------|:------------|
+| **title**             | 1        | `"Expand me..."` | Arbitray text to appear next to the expand/collapse icon. |
 | **open**              | 2        | `false`          | When `true` the content text will be initially shown as expanded. |
-| _**&lt;content&gt;**_ |          | _&lt;empty&gt;_  | Arbitrary text to be displayed on expand. |
+| _**&lt;content&gt;**_ |          | _&lt;empty&gt;_  | Arbitray text to be displayed on expand. |
 
 ## Examples
 
@@ -84,7 +68,7 @@ While the examples are using shortcodes with named parameter you are free to use
 ### Arbitrary Text
 
 ````go
-{{%/* expand title="Show me almost **endless** possibilities" */%}}
+{{%/* expand title="Show me almost endless possibilities" */%}}
 You can add standard markdown syntax:
 
 - multiple paragraphs
@@ -97,11 +81,11 @@ You can add standard markdown syntax:
 ...and even source code
 ```
 
-> the possibilities are endless (almost - including other shortcodes may or may not work)
+> the possiblities are endless (almost - including other shortcodes may or may not work)
 {{%/* /expand */%}}
 ````
 
-{{% expand title="Show me almost **endless** possibilities" %}}
+{{% expand title="Show me almost endless possibilities" %}}
 You can add standard markdown syntax:
 
 - multiple paragraphs
@@ -114,5 +98,5 @@ You can add standard markdown syntax:
 ...and even source code
 ```
 
-> the possibilities are endless (almost - including other shortcodes may or may not work)
+> the possiblities are endless (almost - including other shortcodes may or may not work)
 {{% /expand %}}

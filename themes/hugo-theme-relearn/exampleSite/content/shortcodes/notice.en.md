@@ -11,10 +11,10 @@ It is all about the boxes.
 
 ## Usage
 
-While the examples are using shortcodes with named parameter you are free to use positional as well or also call this shortcode from your own partials.
+While the examples are using shortcodes with named parameter you are free to use positional aswell or also call this shortcode from your own partials.
 
-{{< tabs groupid="shortcode-parameter">}}
-{{% tab title="shortcode" %}}
+{{< tabs groupId="shortcode-parameter">}}
+{{% tab name="shortcode" %}}
 
 ````go
 {{%/* notice style="primary" title="There may be pirates" icon="skull-crossbones" */%}}
@@ -23,7 +23,7 @@ It is all about the boxes.
 ````
 
 {{% /tab %}}
-{{% tab title="shortcode (positional)" %}}
+{{% tab name="shortcode (positional)" %}}
 
 ````go
 {{%/* notice primary "There may be pirates" "skull-crossbones" */%}}
@@ -32,11 +32,11 @@ It is all about the boxes.
 ````
 
 {{% /tab %}}
-{{% tab title="partial" %}}
+{{% tab name="partial" %}}
 
 ````go
 {{ partial "shortcodes/notice.html" (dict
-  "page"  .
+  "context" .
   "style" "primary"
   "title" "There may be pirates"
   "icon" "skull-crossbones"
@@ -50,12 +50,11 @@ It is all about the boxes.
 ### Parameter
 
 | Name      | Position | Default   | Notes       |
-|-----------|----------|-----------|-------------|
-| **style** | 1        | `default` | The style scheme used for the box.<br><br>- by severity: `info`, `note`, `tip`, `warning`<br>- by brand color: `primary`, `secondary`, `accent`<br>- by color: `blue`, `green`, `grey`, `orange`, `red`<br>- by special color: `default`, `transparent`, `code` |
-| **color** |          | see notes | The [CSS color value](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) to be used. If not set, the chosen color depends on the **style**. Any given value will overwrite the default.<br><br>- for severity styles: a nice matching color for the severity<br>- for all other styles: the corresponding color |
-| **title** | 2        | see notes | Arbitrary text for the box title. Depending on the **style** there may be a default title. Any given value will overwrite the default.<br><br>- for severity styles: the matching title for the severity<br>- for all other styles: _&lt;empty&gt;_<br><br>If you want no title for a severity style, you have to set this parameter to `" "` (a non empty string filled with spaces) |
-| **icon**  | 3        | see notes | [Font Awesome icon name]({{%relref "shortcodes/icon#finding-an-icon" %}}) set to the left of the title. Depending on the **style** there may be a default icon. Any given value will overwrite the default.<br><br>- for severity styles: a nice matching icon for the severity<br>- for all other styles: _&lt;empty&gt;_<br><br>If you want no icon for a severity style, you have to set this parameter to `" "` (a non empty string filled with spaces) |
-| _**&lt;content&gt;**_ |          | _&lt;empty&gt;_ | Arbitrary text to be displayed in box. |
+|:----------|:---------|:----------|:------------|
+| **style** | 1        | `default` | The color scheme used to highlight the box content.<br/><br/>- by severity: `info`, `note`, `tip`, `warning`<br/>- by brand color: `primary`, `secondary`<br/>- by color: `blue`, `green`, `grey`, `orange`, `red`<br/>- by special color: `default`, `transparent` |
+| **title** | 2        | see notes | Arbitray text for the box title. Depending on the **style** there may be a default title. Any given value will overwrite the default.<br/><br/>- for severity styles: the matching title for the severity<br/>- for all other colors: _&lt;empty&gt;_<br/><br/>If you want no title for a severity style, you have to set this parameter to `" "` (a non empty string filled with spaces) |
+| **icon**  | 3        | see notes | [Font Awesome icon name]({{%relref "cont/icons#finding-an-icon" %}}) set to the left of the title. Depending on the **style** there may be a default icon. Any given value will overwrite the default.<br/><br/>- for severity styles: a nice matching icon for the severity<br/>- for all other colors: _&lt;empty&gt;_<br/><br/>If you want no icon for a severity style, you have to set this parameter to `" "` (a non empty string filled with spaces) |
+| _**&lt;content&gt;**_ |          | _&lt;empty&gt;_ | Arbitray text to be displayed in box. |
 
 ## Examples
 
@@ -79,7 +78,7 @@ You can add standard markdown syntax:
 ...and even source code
 ```
 
-> the possibilities are endless (almost - including other shortcodes may or may not work)
+> the possiblities are endless (almost - including other shortcodes may or may not work)
 {{%/* /notice */%}}
 ````
 
@@ -98,7 +97,7 @@ You can add standard markdown syntax:
 ...and even source code
 ```
 
-> the possibilities are endless (almost - including other shortcodes may or may not work)
+> the possiblities are endless (almost - including other shortcodes may or may not work)
 {{% /notice %}}
 
 #### Note
@@ -186,18 +185,6 @@ A **secondary** disclaimer
 A **secondary** disclaimer
 {{% /notice %}}
 
-#### Accent
-
-````go
-{{%/* notice style="accent" */%}}
-An **accent** disclaimer
-{{%/* /notice */%}}
-````
-
-{{% notice style="accent" %}}
-An **accent** disclaimer
-{{% /notice %}}
-
 ### By Color
 
 #### Blue without a Title and Icon
@@ -248,7 +235,7 @@ A **orange** disclaimer
 A **orange** disclaimer
 {{% /notice %}}
 
-#### Red without a Title and Icon
+#### Red
 
 ````go
 {{%/* notice style="red" */%}}
@@ -262,10 +249,10 @@ A **red** disclaimer
 
 ### By Special Color
 
-#### Default with Positional Parameter
+#### Default with Title and Icon
 
 ````go
-{{%/* notice default "Pay Attention to this Note!" "skull-crossbones" */%}}
+{{%/* notice style="default" title"Pay Attention to this Note!" icon="skull-crossbones" */%}}
 Some serious information.
 {{%/* /notice */%}}
 ````
@@ -277,23 +264,11 @@ Some serious information.
 #### Transparent with Title and Icon
 
 ````go
-{{%/* notice style="transparent" title="Pay Attention to this Note!" icon="skull-crossbones" */%}}
+{{%/* notice style="transparent" title"Pay Attention to this Note!" icon="skull-crossbones" */%}}
 Some serious information.
 {{%/* /notice */%}}
 ````
 
 {{% notice style="transparent" title="Pay Attention to this Note!" icon="skull-crossbones" %}}
 Some serious information.
-{{% /notice %}}
-
-### With User-Defined Color, Font Awesome Brand Icon and Markdown Title
-
-````go
-{{%/* notice color="fuchsia" title="**Hugo**" icon="fab fa-hackerrank" */%}}
-Victor? Is it you?
-{{%/* /notice */%}}
-````
-
-{{% notice color="fuchsia" title="**Hugo**" icon="fab fa-hackerrank" %}}
-Victor? Is it you?
 {{% /notice %}}
