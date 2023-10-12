@@ -1,14 +1,35 @@
+[Reading-direction]
+other = "rtl"
+
+[Search]
+other = "Searrrch"
+
 [Search-placeholder]
 other = "Searrrch..."
 
+[Clear-search]
+other = "Clearrr searrrch"
+
+[No-results-found]
+other = "No rrresults found fer \"{0}\""
+
+[N-results-found]
+other = "{1} rrresults found fer \"{0}\""
+
 [Clear-History]
-other = "Clear Historrry"
+other = "Clearrr Historrry"
+
+[Reset-view]
+other = "Rrreset view"
+
+[View-reset]
+other = "View rrreset!"
 
 [Attachments-label]
 other = "Attachments"
 
 [title-404]
-other = "Errror"
+other = "Not found"
 
 [message-404]
 other = "Woops. Looks like this plank doesn't exist ¯\\_(ツ)_/¯."
@@ -21,6 +42,9 @@ other = "Edit"
 
 [Print-this-chapter]
 other = "Prrrint whole chapterrr"
+
+[More-action]
+other = "Morrre"
 
 [Shortcuts-Title]
 other = "Morrre"
@@ -69,3 +93,27 @@ other = "Copied link t' clipboard!"
 
 [Chapter]
 other = "T' chapterrr {{.}}"
+
+[Language]
+other = "Language"
+
+[Theme]
+other = "Theme"
+
+[Submenu]
+other = "Submenu {{.}}"
+
+[Subsections]
+other = "Subsct'ns o' {{.}}"
+
+[tags]
+other = "Taks"
+
+[tag]
+other = "Tak"
+
+[categories]
+other = "Categorrries"
+
+[category]
+other = "Categorrry"

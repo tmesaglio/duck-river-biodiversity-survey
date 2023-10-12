@@ -1,14 +1,35 @@
+[Reading-direction]
+other = "ltr"
+
+[Search]
+other = "Buscar"
+
 [Search-placeholder]
 other = "Buscar..."
 
+[Clear-search]
+other = "Borrar búsqueda"
+
+[No-results-found]
+other = "No se han encontrado resultados para \"{0}\""
+
+[N-results-found]
+other = "{1} resultados encontrados para \"{0}\""
+
 [Clear-History]
 other = "Borrar Historial"
+
+[Reset-view]
+other = "Restablecer vista"
+
+[View-reset]
+other = "¡Ver reajuste!"
 
 [Attachments-label]
 other = "Adjuntos"
 
 [title-404]
-other = "Error"
+other = "Sin localizar"
 
 [message-404]
 other = "Ups. Parece que la página no existe ¯\\_(ツ)_/¯."
@@ -20,7 +41,10 @@ other = "Ir al inicio"
 other = "Editar"
 
 [Print-this-chapter]
-other = "Imprimer le chapitre entier"
+other = "Imprimir todo el capítulo"
+
+[More-action]
+other = "Más"
 
 [Shortcuts-Title]
 other = "Más"
@@ -69,3 +93,27 @@ other = "¡Enlace copiado al portapapeles!"
 
 [Chapter]
 other = "Capitulo {{.}}"
+
+[Language]
+other = "Idioma"
+
+[Theme]
+other = "Tema"
+
+[Submenu]
+other = "Submenú {{.}}"
+
+[Subsections]
+other = "Subsecciones de {{.}}"
+
+[tags]
+other = "Etiquetas"
+
+[tag]
+other = "Etiqueta"
+
+[categories]
+other = "Categorías"
+
+[category]
+other = "Categoría"

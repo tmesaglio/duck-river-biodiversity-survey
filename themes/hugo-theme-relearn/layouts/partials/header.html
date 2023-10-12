@@ -1,126 +1,95 @@
 <!DOCTYPE html>
-<html lang="{{ .Page.Language | default "en" }}">
+{{- $format := partial "get-format.hugo" . }}
+{{- $outputFormat := partial "output-format.hugo" (dict "page" . "format" $format) }}
+{{- $basename := "index" }}
+{{- if eq $outputFormat "searchpage" }}
+  {{- $basename = partial "BaseName.hugo" $format.RelPermalink }}
+{{- end }}
+<html lang="{{ .Page.Language | default "en" }}" dir="{{ T "Reading-direction" | default "ltr" }}">
   <head>
     {{- partial "meta.html" . }}
+    {{- $page := . }}
     {{- $link := "<link href=\"%s\" rel=\"%s\" type=\"%s\" title=\"%s\">" }}
-    <title>{{ if and .Title (not (eq .Title .Site.Title)) }}{{ .Title }} {{ default "::" .Site.Params.titleSeparator }} {{ end}}{{ .Site.Title }}</title>
+    {{- $title := .Title }}
+    {{- if eq $outputFormat "searchpage" }}
+      {{- $title = T "Search" }}
+    {{- else if eq .Kind "taxonomy" }}
+      {{- $title = i18n .Data.Plural }}
+      {{- if not $title }}
+        {{- $title = .Data.Plural }}
+      {{- end }}
+    {{- else if eq .Kind "term" }}
+      {{- $title = i18n .Data.Singular }}
+      {{- if not $title }}
+        {{- $title = .Data.Singular }}
+      {{- end }}
+      {{- $title = printf "%s %s %s" .Title (default "::" .Site.Params.titleSeparator) $title }}
+    {{- end }}
+    {{- if and $title .Site.Title (not (eq $title .Site.Title)) }}
+      {{- $title = printf "%s %s %s" $title (default "::" .Site.Params.titleSeparator) .Site.Title }}
+    {{- end }}
+    <title>{{ $title }}</title>
+
+    {{- if .IsTranslated -}}
+      {{- range $index, $trans := .AllTranslations }}
+        {{- if eq $index 0 }}
+    <link href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" . "abs" true "basename" $basename) }}" rel="alternate" hreflang="x-default">
+        {{- end }}
+    <link href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" . "abs" true "basename" $basename) }}" rel="alternate" hreflang="{{ .Language.Lang }}">
+      {{- end }}
+    {{- end }}
 
     {{- if not (and .Title (or (ne (.Scratch.Get "relearnIsHiddenStem") true) (ne .Site.Params.disableSeoHiddenPages true) ) ) }}
     {{- else }}
-        {{- range .AlternativeOutputFormats }}
-            {{- if ne .Name "JSON" }}
-    {{ (printf $link (.Permalink | relURL) .Rel .MediaType.Type ($.Site.Title | htmlEscape)) | safeHTML }}
-            {{- end }}
+      {{- range .AlternativeOutputFormats }}
+        {{- if eq .Rel "canonical" }}
+    {{ (printf $link (partial "relLangPrettyUglyURL.hugo" (dict "to" . "abs" true "basename" $basename)) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
+        {{- else if eq $outputFormat "searchpage" }}
+        {{- else if eq .Name "SEARCHPAGE" }}
+        {{- else if and (ne .Name "JSON") (ne .Name "SEARCH") }}
+    {{ (printf $link (partial "relLangPrettyUglyURL.hugo" (dict "to" .)) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
         {{- end }}
-    {{- end }}
-    {{- if and (ne .Site.Params.disableSeoHiddenPages true) (ne .Site.Params.disableSearchHiddenPages true) }}
-        {{- range .AlternativeOutputFormats }}
-            {{- if eq .Name "JSON" }}
-    {{ (printf $link (.Permalink | relURL) .Rel .MediaType.Type ($.Site.Title | htmlEscape)) | safeHTML }}
-            {{- end }}
-        {{- end }}
+      {{- end }}
     {{- end }}
 
-    {{- partial "favicon.html" . }}
-    {{- partial "stylesheet.html" . }}
+    {{- if and (ne .Site.Params.disableSeoHiddenPages true) (ne .Site.Params.disableSearchHiddenPages true) }}
+      {{- range .AlternativeOutputFormats }}
+        {{- if eq .Name "SEARCHPAGE" }}
+        {{- else if eq .Name "JSON" }}
+    {{ (printf $link (.Permalink | relURL) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+
+    {{- partialCached "favicon.html" . }}
+    {{- partialCached "stylesheet.html" (dict "page" . "outputFormat" $outputFormat) .RelPermalink $outputFormat }}
     {{- partial "custom-header.html" . }}
   </head>
-  <body class="mobile-support {{ (partial "output-format.hugo" .) }}{{- if .Site.Params.disableInlineCopyToClipBoard }} disableInlineCopyToClipboard{{ end }}" data-url="{{ .RelPermalink }}">
-    <div id="body" class="default-animation">
-      <div id="sidebar-overlay"></div>
-      <div id="toc-overlay"></div>
-      <nav id="topbar" class="highlightable">
-        <div>
-        {{- $showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev)) }}
-        {{- if $showPrevNext }}
-          {{- $parent := .Parent }}
-          {{- $ispublished := true }}
-          {{- if $parent }}
-            {{- $ispublished = gt (int (len $parent.Permalink)) 0 }}
-          {{- end }}
-          <div class="navigation">
-          {{- if and $ispublished ($.Scratch.Get "relearnNextPage") }}
-            {{- with ($.Scratch.Get "relearnNextPage") }}
-             <a class="nav nav-next" href="{{.RelPermalink}}" title="{{.Title}} (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
-            {{- end }}
-          {{- else }}
-             <span class="nav nav-next"><i class="fa fa-chevron-right fa-fw"></i></span>
-          {{- end }}
+  <body class="mobile-support {{ $outputFormat }}{{- if .Site.Params.disableInlineCopyToClipBoard }} disableInlineCopyToClipboard{{ end }}{{- if .Site.Params.disableHoverBlockCopyToClipBoard }} disableHoverBlockCopyToClipBoard{{ end }}" data-url="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            {{- partial "topbar/area/start.html" . }}
           </div>
-          <div class="navigation">
-          {{- if and $ispublished ($.Scratch.Get "relearnPrevPage") }}
-            {{- with ($.Scratch.Get "relearnPrevPage") }}
-             <a class="nav nav-prev" href="{{.RelPermalink}}" title="{{.Title}} (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
-            {{- end}}
-          {{- else }}
-             <span class="nav nav-prev"><i class="fa fa-chevron-left fa-fw"></i></span>
-          {{- end}}
-          </div>
-        {{- end }}
-        {{- with .OutputFormats.Get "PRINT" }}
-          <div id="top-print-link">
-            <a class="print-link" title='{{ T "Print-this-chapter" }} (CTRL+ALT+p)' href="{{ .RelPermalink }}">
-              <i class="fas fa-print fa-fw"></i>
-            </a>
-          </div>
-        {{- end -}}
-        {{- if .Site.Params.editURL }}
-          {{- $File := .File }}
-          {{- $Site := .Site }}
-          {{- if $File }}
-            {{- with $File.Path }}
-          <div id="top-github-link">
-            <a class="github-link" title='{{ T "Edit-this-page" }} (CTRL+ALT+e)' href="{{ $Site.Params.editURL }}{{ replace $File.Dir "\\" "/" }}{{ $File.LogicalName }}" target="blank">
-              <i class="fas fa-pen fa-fw"></i>
-            </a>
-          </div>
-            {{- end }}
-          {{- end }}
-        {{- end }}
-        {{- $defaultDisableToc := .Site.Params.disableToc | default false }}
-        {{- $currentDisableToc := .Params.disableToc | default $defaultDisableToc }}
-        {{- $hastoc := not (eq 0 (int (len (.TableOfContents | plainify)))) }}
-        {{- $toc := (and $hastoc (not $currentDisableToc)) }}
-          <div id="breadcrumbs">
-            <span id="sidebar-toggle-span">
-              <a href="#" id="sidebar-toggle" title='{{ T "Navigation-toggle" }} (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
-            </span>
-          {{- if $toc }}
-            <span id="toc-menu" title='{{ T "Toc-toggle" }} (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
-          {{- end }}
           {{- $showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb)) }}
           {{- if $showBreadcrumb }}
-            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
-              <meta itemprop="itemListOrder" content="Descending" />
-              {{- template "breadcrumb" dict "page" . "depth" 0 }}
-            </ol>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            {{- partial "breadcrumbs.html" (dict "page" .) }}
+          </ol>
           {{- else }}
-            <span class="links">
-              {{ .Title }}
-            </span>
+          <span class="topbar-breadcrumbs highlightable">
+            {{ .Title }}
+          </span>
           {{- end }}
+          <div class="topbar-area topbar-area-end" data-area="end">
+            {{- partial "topbar/area/end.html" . }}
           </div>
-        {{- if $toc }}
-          {{- partial "toc.html" . }}
-        {{- end }}
         </div>
       </nav>
-      <main id="body-inner" class="highlightable {{ partial "archetype.hugo" (dict "hook" "styleclass" "page" . "parameter" .) }}" tabindex="-1">
+      {{- $hook := "styleclass" }}
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable {{ partialCached "archetype.hugo" (dict "hook" $hook "page" . "parameter" . "outputFormat" $outputFormat) .RelPermalink $outputFormat $hook }}" tabindex="-1">
         <div class="flex-block-wrapper">
-          <div id="head-tags">
-{{- partial "tags.html" . }}
-          </div>
-{{- define "breadcrumb" }}
-  {{- $parent := .page.Parent }}
-  {{- $ispublished := gt (int (len .page.Permalink)) 0 }}
-  {{- $depth := .depth }}
-  {{- if $ispublished }}
-    {{- $depth = add $depth 1 }}
-  {{- end }}
-  {{- if $parent }}
-    {{- template "breadcrumb" dict "page" $parent "depth" $depth }}
-  {{- end }}
-  {{- if $ispublished }}
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="{{ $depth }}" /><a itemprop="item" href="{{ .page.RelPermalink }}"{{if not .depth}} aria-disabled="true"{{end}}><span itemprop="name">{{if .page.Title}}{{ .page.Title }}{{else}}{{ .page.Site.Title }}{{end}}</span></a>{{ if .depth }} > {{ end }}</li>
-  {{- end }}
-{{- end }}

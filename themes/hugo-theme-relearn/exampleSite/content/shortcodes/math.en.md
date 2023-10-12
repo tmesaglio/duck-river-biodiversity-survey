@@ -5,7 +5,7 @@ title = "Math"
 
 The `math` shortcode generates beautiful formatted math and chemical formulae using the [MathJax](https://mathjax.org/) library.
 
-{{< math >}}
+{{< math align="center" >}}
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 {{< /math >}}
 
@@ -15,7 +15,7 @@ This only works in modern browsers.
 
 ## Usage
 
-While the examples are using shortcodes with named parameter it is recommended to use codefences instead. This is because more and more other software supports Mermaid codefences (eg. GitHub) and so your markdown becomes more portable.
+While the examples are using shortcodes with named parameter it is recommended to use codefences instead. This is because more and more other software supports Math codefences (eg. GitHub) and so your markdown becomes more portable.
 
 You are free to also call this shortcode from your own partials.
 
@@ -23,31 +23,32 @@ You are free to also call this shortcode from your own partials.
 To use codefence syntax you have to turn off `guessSyntax` for the `markup.highlight` setting ([see the configuration section](#configuration)).
 {{% /notice %}}
 
-{{< tabs groupId="shortcode-parameter">}}
-{{% tab name="codefence" %}}
+{{< tabs groupid="shortcode-parameter">}}
+{{% tab title="codefence" %}}
 
 ````md
-```math
+```math { align="center" }
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 ```
 ````
 
 {{% /tab %}}
-{{% tab name="shortcode" %}}
+{{% tab title="shortcode" %}}
 
 ````go
-{{</* math */>}}
+{{</* math align="center" */>}}
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 {{</* /math */>}}
 ````
 
 {{% /tab %}}
-{{% tab name="partial" %}}
+{{% tab title="partial" %}}
 
 ````go
 {{ partial "shortcodes/math.html" (dict
-  "context" .
+  "page"    .
   "content" "$$left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$"
+  "align"   "center"
 )}}
 
 ````
@@ -57,10 +58,8 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 ### Parameter
 
-Parameter are only supported when using shortcode or partial syntax. Defaults are used when using codefence syntax.
-
 | Name                  | Default          | Notes       |
-|:----------------------|:-----------------|:------------|
+|-----------------------|------------------|-------------|
 | **align**             | `center`         | Allowed values are `left`, `center` or `right`. |
 | _**&lt;content&gt;**_ | _&lt;empty&gt;_  | Your formuale. |
 
@@ -85,8 +84,8 @@ To use codefence syntax you have to turn off `guessSyntax` for the `markup.highl
 [markup]
   [markup.highlight]
     # if `guessSyntax = true`, there will be no unstyled code even if no language
-    # was given BUT mermaid and math codefences will not work anymore! So this is a
-    # mandatory setting for your site if you want to use math codefences
+    # was given BUT Mermaid and Math codefences will not work anymore! So this is a
+    # mandatory setting for your site if you want to use Math codefences
     guessSyntax = false
 ````
 
@@ -108,25 +107,25 @@ Inline math is generated if you use a single `$` as a delimiter around your form
 
 Inline math is generated if you use a single `$` as a delimiter around your formulae: {{< math >}}$\sqrt{3}${{< /math >}}
 
-### Blocklevel Math with Left Alignment
+### Blocklevel Math with Right Alignment
 
 ````md
 If you delimit your formulae by two consecutive `$$` it generates a new block.
 
-{{</* math align="left" */>}}
+{{</* math align="right" */>}}
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 {{</* /math */>}}
 ````
 
 If you delimit your formulae by two consecutive `$$` it generates a new block.
 
-{{< math align="left" >}}
+{{< math align="right" >}}
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 {{< /math >}}
 
 ### Codefence
 
-You can also use codefences but without further parameter.
+You can also use codefences.
 
 ````md
 ```math

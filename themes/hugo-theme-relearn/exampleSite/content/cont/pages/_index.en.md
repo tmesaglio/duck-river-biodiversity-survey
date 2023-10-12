@@ -7,7 +7,7 @@ In **Hugo**, pages are the core of your site. Once it is configured, pages are d
 
 ## Folders
 
-Organize your site like [any other Hugo project](https://gohugo.io/content/organization/). Typically, you will have a *content* folder with all your pages.
+Organize your site like [any other Hugo project](https://gohugo.io/content/organization/). Typically, you will have a _content_ folder with all your pages.
 
 ````plaintext
 content
@@ -49,11 +49,11 @@ Hugo provides a `new` command to create a new website.
 hugo new site <new_project>
 ```
 
-The Relearn theme provides [archetypes]({{%relref "cont/archetypes" %}}) to help you create this kind of pages.
+The Relearn theme provides [archetypes]({{% relref "cont/archetypes" %}}) to help you create this kind of pages.
 
 ## Frontmatter Configuration
 
-Each Hugo page has to define a [frontmatter](https://gohugo.io/content/front-matter/) in *toml*, *yaml* or *json*. This site will use *toml* in all cases.
+Each Hugo page has to define a [frontmatter](https://gohugo.io/content/front-matter/) in _toml_, _yaml_ or _json_. This site will use _toml_ in all cases.
 
 The Relearn theme uses the following parameters on top of Hugo ones:
 
@@ -64,6 +64,8 @@ The Relearn theme uses the following parameters on top of Hugo ones:
 disableToc = false
 # If set, this will be used for the page's menu entry (instead of the `title` attribute)
 menuTitle = ""
+# If set to true, the menu in the sidebar will be displayed in a collapsible tree view. Although the functionality works with old browsers (IE11), the display of the expander icons is limited to modern browsers
+collapsibleMenu = false
 # If set, this will explicitly override common rules for the expand state of a page's menu entry
 alwaysopen = true
 # If set, this will explicitly override common rules for the sorting order of a page's submenu entries
@@ -82,6 +84,11 @@ hidden = false
 LastModifierDisplayName = ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail = ""
+# Override default values for image effects, you can even add your own arbitrary effects to the list
+[params.imageEffects]
+  border = false
+  lightbox = true
+  shadow = false
 +++
 ```
 
@@ -96,7 +103,7 @@ menuPre = "<i class='fab fa-github'></i> "
 +++
 ```
 
-![Title with icon](frontmatter-icon.png?classes=shadow&width=300px)
+![Title with icon](frontmatter-icon.png?width=18.75rem)
 
 ### Ordering sibling menu/page entries
 
@@ -137,7 +144,21 @@ The theme generates the menu based on the following rules:
 - immediate children entries of the active page are shown regardless of any settings
 - if not overridden, all other first level entries behave like they would have been given `alwaysopen=false`
 - if not overridden, all other entries of levels besides the first behave like they would have been given `alwaysopen=true`
-- all visible entries show their immediate children entries if `alwaysopen=true`; this proceeds recursivley
+- all visible entries show their immediate children entries if `alwaysopen=true`; this proceeds recursively
 - all remaining entries are not shown
 
-You can see this feature in action on the example page for [children shortcode]({{< relref "shortcodes/children" >}}) and its children pages.
+You can see this feature in action on the example page for [children shortcode]({{% relref "shortcodes/children" %}}) and its children pages.
+
+## Disable Section Pages
+
+You may want to structure your pages in a hierachical way but don't want to generate pages for those sections? The theme got you covered.
+
+To stay with the initial example: Suppose you want `level-one` appear in the sidebar but don't want to generate a page for it. So the entry in the sidebar should not be clickable but should show an expander.
+
+For this, open `content/level-one/_index.md` and add the following frontmatter
+
+````toml
+collapsibleMenu = true # this adds the expander to the menu entry if not already set in your config.toml
+[_build]
+  render = "never" # no page will be generated so the page does not have a url
+````

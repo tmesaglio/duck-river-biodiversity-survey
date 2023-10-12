@@ -13,7 +13,7 @@ The Relearn theme defines some few archetypes of pages but you are free to defin
 
 A **Home** page is the starting page of your project. It's best to have only one page of this kind in your project.
 
-![Home page](pages-home.png?classes=shadow&width=60pc)
+![Home page](pages-home.png?width=60pc)
 
 To create a home page, run the following command
 
@@ -36,7 +36,7 @@ Lorem Ipsum.
 
 A **Chapter** displays a page meant to be used as introduction for a set of child pages. Commonly, it contains a simple title and a catch line to define content that can be found below it.
 
-![Chapter page](pages-chapter.png?classes=shadow&width=60pc)
+![Chapter page](pages-chapter.png?width=60pc)
 
 To create a chapter page, run the following command
 
@@ -62,7 +62,7 @@ Replace the `X` with a number. Because this number will be used to generate the 
 
 A **Default** page is any other content page. If you set an unknown archetype in your frontmatter, this archetype will be used to generate the page.
 
-![Default page](pages-default.png?classes=shadow&width=60pc)
+![Default page](pages-default.png?width=60pc)
 
 To create a default page, run either one of the following commands
 
@@ -87,9 +87,9 @@ weight = X
 Lorem Ipsum.
 ```
 
-Replace the `X` with a number or delete the whole `weight` parameter entirly.
+Replace the `X` with a number or delete the whole `weight` parameter entirely.
 
-## Selfdefined Archetypes
+## Self defined Archetypes
 
 If you are in need of further archetypes you can define your own or even redefine existing ones.
 
@@ -103,7 +103,7 @@ archetype = "<kind>"
 +++
 ````
 
-Afterwards you can generate new content files of that kind with the follwing command
+Afterwards you can generate new content files of that kind with the following command
 
 ```shell
 hugo new --kind <kind> <name>/_index.md
@@ -120,7 +120,7 @@ Related to each archetype, several _hook_ partial files in the form of `<hook>.h
 The following hooks are used:
 
 | Name                 | Notes       |
-|:---------------------|:------------|
+|----------------------|-------------|
 | styleclass           | Defines a set of CSS classes to be added to the HTML's `<main>` element. You can use these classes to define own CSS rules in your `custom-header.html` |
 | article              | Defines the HTML how to render your content |
 
