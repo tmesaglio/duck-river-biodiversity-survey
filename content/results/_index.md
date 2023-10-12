@@ -3,13 +3,13 @@ title: "Results"
 weight: 7
 ---
 
-Across 378.6 hours of surveying, I recorded 1925 species. I provide an exhaustive annotated and illustrated checklist for every one of these species in my final report itself, but in summary:
+Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustive annotated and illustrated checklist for every one of these species in my final report itself, but in summary:
 
 **Algae - 2 species.** Both green algae: *Cladophora glomerata*, submerged in the creek, and *Basicladia ramulosa* growing as an epibiont on the carapace of an Eastern Long-necked Turtle (*Chelodina longicollis*).
 
 **Bryophytes - 24 species.** One hornwort (*Phaeoceros carolinianus*), 11 liverworts and 12 mosses. Includes 2 non-native species: the liverwort *Lunularia cruciata* and the moss *Leptodictyum riparium*.
 
-**Vascular plants - 571 species.** Spread across 7 aquatic plants, 38 climbers, 108 graminoids, 11 ferns, 226 herbs, 73 shrubs, 16 subshrubs, 16 succulents and 76 trees. Natives (264 species) outnumbered by non-natives (307).
+**Vascular plants - 572 species.** Spread across 7 aquatic plants, 38 climbers, 108 graminoids, 11 ferns, 226 herbs, 73 shrubs, 16 subshrubs, 16 succulents and 77 trees. Natives (263 species) outnumbered by non-natives (309).
 
 **Birds - 62 species.** Spread across 12 feeding guilds, and including 4 non-native species. 
 
@@ -47,6 +47,6 @@ Across 378.6 hours of surveying, I recorded 1925 species. I provide an exhaustiv
 
 **Fungi - 113 species.** Spread across 15 groups based on fruiting body morphology.
 
-A further 31.3 hours of survey time from 11 November 2022 onwards have yielded an additional 108 species (bringing the total to 2033), including 6 vascular plants, 8 arachnids, 93 insects and 1 fungus.
+A further 349.9 hours of survey time from 11 November 2022 onwards have yielded an additional 131 species (bringing the total to 2057), including 18 new vascular plants, 9 arachnids, 101 insects and 3 fungus.
 
 ![](wasp.JPG)
