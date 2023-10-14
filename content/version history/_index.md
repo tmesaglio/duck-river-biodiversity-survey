@@ -62,14 +62,14 @@ weight: 10
 
 
 
-**Version 1.4 - released 12 October 2023**
+**Version 1.4 - released 15 October 2023**
 
 *Summary:* 
 -	Section 13 updated with additional survey data from 2023
 -	2 new species added/identified from existing observations
 -	Refined identification for 10 species
 -	Coarsened identification for 2 species (still maintained as unique morphospecies)
--	Description updated for 28 species
+-	Description updated for 29 species
 -	Photographic voucher updated for 4 species
 -	1 species removed
 -	Adjusted 1 species name
