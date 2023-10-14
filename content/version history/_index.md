@@ -58,7 +58,7 @@ weight: 10
 -	Rewrote 1 section
 -	Family name amended for 1 species
 -	Updated number of iNaturalist identifiers
--	Total species count updated to 1925
+-	Total species count updated to 1925.
 
 
 
@@ -66,11 +66,12 @@ weight: 10
 
 *Summary:* 
 -	Section 13 updated with additional survey data from 2023
--	1 new species added/identified from existing observations
+-	2 new species added/identified from existing observations
 -	Refined identification for 10 species
 -	Coarsened identification for 2 species (still maintained as unique morphospecies)
--	Description updated for 25 species
+-	Description updated for 28 species
 -	Photographic voucher updated for 4 species
+-	1 species removed
 -	Adjusted 1 species name
 -	One to one name change for 4 species
 -	Added 1 new reference, and removed 1 reference
@@ -78,5 +79,6 @@ weight: 10
 -	Family name amended for 1 species
 -	Updated native and non-native plant species counts
 -	Updated number of iNaturalist identifiers
--	Total species count updated to 1926
+-	Total species count updated to 1926.
+
 
