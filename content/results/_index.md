@@ -9,7 +9,7 @@ Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustiv
 
 **Bryophytes - 24 species.** One hornwort (*Phaeoceros carolinianus*), 11 liverworts and 12 mosses. Includes 2 non-native species: the liverwort *Lunularia cruciata* and the moss *Leptodictyum riparium*.
 
-**Vascular plants - 572 species.** Spread across 7 aquatic plants, 38 climbers, 108 graminoids, 11 ferns, 226 herbs, 73 shrubs, 16 subshrubs, 16 succulents and 77 trees. Natives (263 species) outnumbered by non-natives (309).
+**Vascular plants - 575 species.** Spread across 7 aquatic plants, 38 climbers, 109 graminoids, 11 ferns, 227 herbs, 73 shrubs, 16 subshrubs, 16 succulents and 78 trees. Natives (263 species) outnumbered by non-natives (312).
 
 **Birds - 62 species.** Spread across 12 feeding guilds, and including 4 non-native species. 
 
@@ -31,7 +31,7 @@ Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustiv
 
 **Molluscs - 12 species.** Five aquatic snails (including 1 non-native, *Physa acuta*), 1 native terrestrial snail (*Sauroconcha sheai*) and 6 non-native terrestrial snails and slugs.
 
-**Arachnids - 126 species.** Mostly spiders (111 species), but also includes 12 mites, 1 harvestman, 1 scorpion and 1 pseudoscorpion.
+**Arachnids - 127 species.** Mostly spiders (111 species), but also includes 13 mites, 1 harvestman, 1 scorpion and 1 pseudoscorpion.
 
 **Crustaceans - 9 species.** five terrestrial species (3 woodlice and 2 amphipods) and four aquatic species (1 copepod, 2 ostracods and 1 water flea). 
 
@@ -39,7 +39,7 @@ Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustiv
 
 **Entognathans - 12 species.** Eleven springtails and 1 dipluran (unidentified Rhabdura).
 
-**Insects - 938 species.** Spread across 25 major groups (mostly equivalent to orders), with moths (196 species), flies (167 species) and beetles (166 species) the most diverse.
+**Insects - 940 species.** Spread across 25 major groups (mostly equivalent to orders), with moths (198 species), flies (168 species) and beetles (166 species) the most diverse.
 
 **Slime moulds - 3 species.** One unidentifiable beyond class (Myxomycetes), along with *Arcyria obvelata* and *Tubifera ferruginosa*. 
 
@@ -47,6 +47,6 @@ Across 378.6 hours of surveying, I recorded 1926 species. I provide an exhaustiv
 
 **Fungi - 113 species.** Spread across 15 groups based on fruiting body morphology.
 
-A further 349.9 hours of survey time from 11 November 2022 onwards have yielded an additional 131 species (bringing the total to 2057), including 18 new vascular plants, 9 arachnids, 101 insects and 3 fungi.
+A further 59.6 hours of survey time from 11 November 2022 onwards have yielded an additional 137 species (bringing the total to 2069), including 21 new vascular plants, 9 arachnids, 102 insects and 5 fungi.
 
 ![](wasp.JPG)
