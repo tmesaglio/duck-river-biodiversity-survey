@@ -99,3 +99,21 @@ weight: 10
 -	Amended text in 2 sections
 -	Updated number of iNaturalist identifiers
 -	Total species count updated to 1932.
+
+
+
+**Version 1.6 - released 9 October 2024**
+
+*Summary:* 
+-	Section 13 updated with additional survey data from 2024
+-	2 new species added/identified from existing observations
+-	Refined identification for 10 species
+-	Coarsened identification for 3 species (still maintained as unique morphospecies)
+-	Description updated for 23 species
+-	Photographic voucher updated for 2 species
+-	3 species removed
+-	One to one name change for 7 species
+-	Removed 6 references
+-	Correction of assorted typos
+-	Updated number of iNaturalist identifiers
+-	Total species count updated to 1931.
