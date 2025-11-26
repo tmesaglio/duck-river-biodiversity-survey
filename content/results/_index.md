@@ -3,13 +3,13 @@ title: "Results"
 weight: 7
 ---
 
-Across 378.6 hours of surveying, I recorded 1931 species. I provide an exhaustive annotated and illustrated checklist for every one of these species in my final report itself, but in summary:
+Across 378.6 hours of surveying, I recorded 1933 species. I provide an exhaustive annotated and illustrated checklist for every one of these species in my final report itself, but in summary:
 
 **Algae - 2 species.** Both green algae: *Cladophora glomerata*, submerged in the creek, and *Basicladia ramulosa* growing as an epibiont on the carapace of an Eastern Long-necked Turtle (*Chelodina longicollis*).
 
 **Bryophytes - 24 species.** One hornwort (*Phaeoceros carolinianus*), 11 liverworts and 12 mosses. Includes 2 non-native species: the liverwort *Lunularia cruciata* and the moss *Leptodictyum riparium*.
 
-**Vascular plants - 574 species.** Spread across 7 aquatic plants, 37 climbers, 109 graminoids, 11 ferns, 227 herbs, 73 shrubs, 16 subshrubs, 16 succulents and 78 trees. Natives (261 species) outnumbered by non-natives (313).
+**Vascular plants - 575 species.** Spread across 7 aquatic plants, 37 climbers, 110 graminoids, 11 ferns, 228 herbs, 72 shrubs, 16 subshrubs, 16 succulents and 78 trees. Natives (261 species) outnumbered by non-natives (313).
 
 **Birds - 62 species.** Spread across 12 feeding guilds, and including 4 non-native species. 
 
@@ -39,7 +39,7 @@ Across 378.6 hours of surveying, I recorded 1931 species. I provide an exhaustiv
 
 **Entognathans - 12 species.** Eleven springtails and 1 dipluran (unidentified Rhabdura).
 
-**Insects - 940 species.** Spread across 25 major groups (mostly equivalent to orders), with moths (198 species), flies (168 species) and beetles (166 species) the most diverse.
+**Insects - 941 species.** Spread across 25 major groups (mostly equivalent to orders), with moths (199 species), flies (168 species) and beetles (166 species) the most diverse.
 
 **Slime moulds - 3 species.** One unidentifiable beyond class (Myxomycetes), along with *Arcyria obvelata* and *Tubifera ferruginosa*. 
 
@@ -47,5 +47,5 @@ Across 378.6 hours of surveying, I recorded 1931 species. I provide an exhaustiv
 
 **Fungi - 113 species.** Spread across 15 groups based on fruiting body morphology.
 
-A further 72.4 hours of survey time from 11 November 2022 onwards have yielded an additional 146 species (bringing the total to 2077).
+A further 89.5 hours of survey time from 11 November 2022 onwards have yielded an additional 153 species (bringing the total to 2086).
 ![](wasp.JPG)
